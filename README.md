@@ -10,5 +10,3 @@ I suspect the bug lays on the SetupTask class. As mentioned in a comment on the 
 Since I don't know if I can initialize the Recognizer in the main activity (DemoActivity) and pass the Model object to this service by an Intent, I set to execute the SetupTask in this service. However, when the service is called by the activity, the model is most likely not initialized yet, and then I get a segmentation fault error.
 
 I hope I'm correct in my assessment, but I really wouldn't be surprised if I'm not. As I stated, I'm fairly new to Android development, and services have been a tricky subject for me to learn.
-
-In any case, I wanted to thank you, Nickolay, for the help. Besides the VOSK demo, most Speech Recognition related questions on StackOverflow have been answered by you, and they've helped me in great lengths for developing my project :)
